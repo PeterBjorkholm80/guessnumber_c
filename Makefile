@@ -1,9 +1,8 @@
-program:
+program: main.c gen_num.c
 	gcc main.c gen_num.c -o main
 
 clean:
-	rm guess
+	rm main
 
-test: 
-	program
+test: program
 	bash test.sh
