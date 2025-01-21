@@ -1,5 +1,5 @@
 program:
-	gcc main.c gen_num.c -o program
+	gcc main.c gen_num.c -o main
 
 clean:
 	rm guess
