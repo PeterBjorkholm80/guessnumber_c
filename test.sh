@@ -1,8 +1,8 @@
 echo "Running tests..."
 echo
 
-output=$(./program.out)
-#expected_output=$(./gen_num.out)
+output=$(./main.out)
+
 expected_output="75"
 
 if [ $? -eq 0 ] ; then
